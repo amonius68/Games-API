@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Game Over Sidte" />
+  <meta name="keywords" content="Game Over />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+
+  <title>Home</title>
+  <link rel="stylesheet" href="Constants/bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <!-- nav-bar -->
+
+<div class="sideAll">
+
+  <div class=" bg-img d-flex justify-content-center">
+    <img src="imgs/wraper.png" alt="bg-img" class="w-100" >
+  </div>
+
+  <div class="container">
+
+    <div class="nav-position">
+      <nav class="navbar navbar-expand-lg flex-nowrap">
+        <div class="nav-header">
+          <img src="imgs/logo-sm.png" class="logo" alt="logo">
+          <a class="navbar-brand text-white" href="#">GAME REVIEWS</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2">
+            <li class="nav-item">
+              <a class="link nav-link active" aria-current="page" href="#">MMORPG</a>
+            </li>
+            <li class="nav-item">
+              <a class="link nav-link" id="shooter" href="#">SHOOTER</a>
+            </li>
+            <li class="nav-item">
+              <a class="link nav-link" id="PERMADEATH" href="#">PERMADEATH</a>
+            </li>
+            <li class="nav-item">
+              <a class="link nav-link" id="SUPERHERO" href="#">SUPERHERO</a>
+            </li>
+            <li class="nav-item">
+              <a class="link nav-link" id="PIXEL" href="#">PIXEL</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <!-- game cards -->
+
+    <div id="rowGames" class=" row g-4">
+      
+    </div>
+  </div>
+</div>
+
+
+  <div class="container">
+    <section id="detailsGames" class="details d-none">
+
+    </section>
+
+    <div class="loading d-none">
+      <span class="loader"></span>
+    </div>
+  </div>
+
+
+    <script src="Constants/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="details.js"></script>
+</body>
+</html>
