@@ -29,7 +29,7 @@ export function displayDetails(game, detailsSection, sideAll, loading) {
                 <div class="col-md-4">
                     <img src="${game.thumbnail}" class="w-100" alt="image details" />
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 pb-4">
                     <h3>Title: ${game.title}</h3>
                     <p>Category: <span class="badge text-bg-info">${game.genre}</span></p>
                     <p>Platform: <span class="badge text-bg-info">${game.platform}</span></p>
